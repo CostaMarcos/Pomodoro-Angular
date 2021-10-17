@@ -1,0 +1,60 @@
+.content{
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(189, 106, 106);
+}
+
+.circle{
+    width: 90vh;
+    height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    border-style: dashed;
+    border-radius: 60%;
+    border-color: #fff;
+}
+
+.time{
+    font-weight: bold;
+    color: #fff;
+}
+
+button{
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.red{
+    background-color: brown;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: sandybrown;
+}
+
+
+button:hover{
+    transform: scale(.98);
+}

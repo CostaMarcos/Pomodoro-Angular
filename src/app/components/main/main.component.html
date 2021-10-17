@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="circle">
+    <h1 class="time">{{ minutesText }}:{{ secondsText }}</h1>
+    
+    <div class="buttons">
+      <button (click)="clear()" class="yellow">
+        <mat-icon>restore</mat-icon>
+      </button>
+      <button (click)="play()" [class.red]="counting" [class.green]="!counting">
+        <mat-icon *ngIf="!counting" aria-hidden="false" aria-label="Example home icon">play_circle</mat-icon>
+        <mat-icon *ngIf="counting" aria-hidden="false" aria-label="Example home icon">stop</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
